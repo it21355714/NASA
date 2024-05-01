@@ -38,10 +38,12 @@ function NavBar() {
             <li className="nav-item">
               <NavLink className="nav-link" activeClassName="active" to="/EarthImage">Earth Image</NavLink>
             </li>
-            <li className="nav-item">
-              <button className="nav-link" onClick={handleSignOut} style={{ border: 'none', background: 'none', cursor: 'pointer' }}>Exit</button>
-            </li>
-          </ul>
+            </ul>
+            
+            <button className="nav-link" onClick={handleSignOut} style={{ border: 'none', background: 'none', cursor: 'pointer' }}>Log Out</button>
+          
+
+           
         </div>
       </div>
     </nav>
